@@ -1,5 +1,4 @@
-#!/bin/bash
-
+# extracts varieties of compressed files
 extract() {
   if [ "${1}x" == "x" ]; then
     echo "Usage: extract <filepath>"
