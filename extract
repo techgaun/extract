@@ -7,7 +7,7 @@ extract() {
       case "${1}" in
         *.tgz | *.tar.gz)   tar xfz "${1}";;
         *.tbz2 | *.tar.bz2) tar xfj "${1}";;
-        *.tar | *.lzma)              tar xf "${1}";;
+        *.tar | *.lzma)     tar xf "${1}";;
         *.rar)              unrar x -ad "${1}";;
         *)                  echo "Unknown compressed file type.";;
       esac
