@@ -17,8 +17,8 @@ wget -q -O - https://raw.githubusercontent.com/techgaun/extract/master/extract >
 extract <filepath>
 ```
 
-### Compressed types support
+### Compression types support
 
-tgz, tar.gz, tbz2, tar.bz2, tar, lzma, rar
+tgz, tar.gz, tbz2, tar.bz2, tar, lzma, rar, zip, gz
 
 - If you come up with support for another type of compression, feel free to create PR :)
